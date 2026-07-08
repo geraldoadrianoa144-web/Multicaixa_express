@@ -1,12 +1,19 @@
-{
-  "name:"multicaixa-express",
-  "version":"1.0.0",
-  "description":"sistema de
-  transferencia bancária",
-  "main":"index.js",
-  "scripts":{
-    "start":"node index.js"
-  }
-  "Author":"appbaco",
-  "license":"MIT"
+
     
+
+{
+  "name": "multicaixa-express",
+  "version": "1.0.0",
+  "description": "Sistema de transferência bancária",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  },
+  "author": "appbaco",
+  "license": "MIT"
+}
